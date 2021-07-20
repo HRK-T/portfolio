@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AsoFarm</title>
+    <meta name="discription" content="阿蘇で牛やスイートコーンを育ているAsoFarm通販サイト。阿蘇の大自然の栄養がたっぷり詰まった商品をぜひ食べてみてください。">
+    <link rel="stylesheet" href="https://github.com/nicolas-cusan/destyle.css"><!--リセットCSS-->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"><!--FontAwesomeのアイコンインポート-->
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&family=M+PLUS+Rounded+1c:wght@700&display=swap" rel="stylesheet"><!--webフォント-->
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet"><!--webフォント-->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script><!--jQueryのインポート-->
+    <script src="js/script.js"></script>
+</head>
+
+
+
+
+<body>
+    <div class="container">
+        <!-- 動画のヒーローヘッダー -->
+        <div class="movie"  id="top">
+            <div class="movie-pattern"></div>
+            <video src="images/home/farm-video.mp4" poster="images/home/hero-header.jpg"  autoplay loop muted></video>
+            <div class="headline">
+                <h1 class="video-text">
+                    <span>Aso Farm</span>
+                </h1>
+                <p>live in harmony with nature</p>
+            </div>
+            <div class="down-shape">
+                <div class="down-icon">
+                    <a class="more-scroll">
+                        <span><i class="fas fa-arrow-circle-down"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <header>
+            <nav class="nav-normal"><!-- デスクトップ用のナビゲーションメニュー -->
+                <ul>
+                    <li>
+                        <a href="#comitment">
+                            <img src="images/home/watering-small2.jpg" alt="牧場のこだわり">
+                            <p>こだわり</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#shopping">
+                            <img src="images/home/shop-small.jpg" alt="お店">
+                            <p>買い物</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#cook">
+                            <img src="images/home/recipe-small.jpg" alt="料理">
+                            <p>レシピ</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#news">
+                            <img src="images/home/news-small.jpg" alt="子牛">
+                            <p>ニュース</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#sightseeing">
+                            <img src="images/home/sightseeing-small.jpg" alt="朝焼けの阿蘇山">
+                            <p>観光</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#infomation">
+                            <img src="images/home/infomation-small.jpg" alt="牧場の様子">
+                            <p>Aso Farmについて</p>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </nav>
+
+
+
+            <div class="nav-scroll scroll-key"><!-- デスクトップ用のスクロールした時のナビゲーションメニュー -->
+
+                <div class="header-logo">
+                    <a href="index.html">AsoFarm</a>
+                </div>
+
+
+                <ul class="scroll-menu">
+                    <li class="scroll-menu-list">
+                        <div class="scroll-list">
+                            <a href="#comitment">
+                                <i class="fas fa-seedling"></i>
+                                <p>こだわり</p>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="scroll-menu-list">
+                        <div class="scroll-list">
+                            <a href="#shopping">
+                                <i class="fas fa-shopping-cart"></i>
+                                <p>ショッピング</p>
+                            </a>
+                        </div>
+                        <ul class="dropdown">
+                            <li><a href="">オンラインショップ</a></li>
+                            <li><a href="">直売所</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="scroll-menu-list">
+                        <div class="scroll-list">
+                            <a href="#cook">
+                                <i class="fas fa-clipboard"></i>
+                                <p>レシピ</p>
+                            </a>
+                        </div>
+                        <ul class="dropdown">
+                            <li><a href="">スイートコーン</a></li>
+                            <li><a href="">あか牛</a></li>
+                            <li><a href="">阿蘇高菜</a></li>
+                            <li><a href="">春キャベツ</a></li>
+                            <li><a href="">ほうれん草</a></li>
+                            <li><a href="">アスパラガス</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="scroll-menu-list">
+                        <div class="scroll-list">
+                            <a href="#news">
+                                <i class="fas fa-newspaper"></i>
+                                <p>ニュース</p>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="scroll-menu-list">
+                        <div class="scroll-list">
+                            <a href="#sightseeing">
+                                <i class="fas fa-car-side"></i>
+                                <p>観光情報</p>
+                            </a>
+                        </div>
+                        <ul class="dropdown">
+                            <li><a href="">トレッキング</a></li>
+                            <li><a href="">ツーリング</a></li>
+                            <li><a href="">食べ物</a></li>
+                            <li><a href="">フォトスポット</a></li>
+                            <li><a href="">宿泊</a></li>
+                            <li><a href="">季節限定</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="scroll-menu-list">
+                        <div class="scroll-list">
+                            <a href="#infomation">
+                                <i class="fas fa-horse"></i>
+                                <p>牧場について</p>
+                            </a>
+                        </div>
+                        <ul class="dropdown">
+                            <li><a href="">Aso Farm紹介</a></li>
+                            <li><a href="">1年の流れ</a></li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </div>
+
+            <div class="nav-toggle" id="toggle-btn"><!-- モバイル用のナビゲーション（ハンバーガー）メニュー -->
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="toggle-btn-bg"></div>
+            <nav class="nav-toggle-area">
+                <ul class="nav-menu-ul">
+                    <li class="nav-menu-li"><a href="#">トップページ</a></li>
+                    <li class="nav-menu-li"><a href="#">こだわり</a></li>
+                    <li class="nav-menu-li toggle-switch1"><a href="#">お買い物</a><span class="toggle-arrow-shop arrow"></span></li>
+                    <ul class="toggle1">
+                        <li><a href="">オンラインショップ</a></li>
+                        <li><a href="">直売所</a></li>
+                    </ul>
+                    <li class="nav-menu-li toggle-switch2"><a href="#">レシピ</a><span class="toggle-arrow-recipe arrow"></span></li>
+                    <ul class="toggle2">
+                        <li><a href="">スイートコーン</a></li>
+                        <li><a href="">あか牛</a></li>
+                        <li><a href="">阿蘇高菜</a></li>
+                        <li><a href="">春キャベツ</a></li>
+                        <li><a href="">ほうれん草</a></li>
+                        <li><a href="">アスパラガス</a></li>
+                    </ul>
+                    <li class="nav-menu-li"><a href="#">ニュース</a></li>
+                    <li class="nav-menu-li toggle-switch3"><a href="#">観光情報</a><span class="toggle-arrow-sightseeing arrow"></span></li>
+                    <ul class="toggle3">
+                        <li><a href="">トレッキング</a></li>
+                        <li><a href="">ツーリング</a></li>
+                        <li><a href="">食べ物</a></li>
+                        <li><a href="">フォトスポット</a></li>
+                        <li><a href="">キャンプ・宿泊</a></li>
+                        <li><a href="">季節限定</a></li>
+                    </ul>
+                    <li class="nav-menu-li toggle-switch4"><a href="#">AsoFameについて</a><span class="toggle-arrow-infomation arrow"></span></li>
+                    <ul class="toggle4">
+                        <li><a href="">Aso Farm紹介</a></li>
+                        <li><a href="">1年の流れ</a></li>
+                    </ul>
+                </ul>
+            </nav>
+              
+
+
+        </header>
+
+
+        <main>
+            <article id="comitment"><!-- こだわり -->
+                <div class="title">
+                    <div class="title-box">
+                        <h1>こだわり</h1>
+                        <p>comitment</p>
+                    </div>
+                </div>
+
+
+                <div class="comitment-box">
+
+
+                    <img class="comitment-bg-wrapper slidein-left" src="images/home/comitment-bg.jpg" alt="トウモロコシを一つずつ収穫している様子">
+
+                    <div class="right-justified"><!--右揃えの箱--------------------------------->
+                        <h2 class="comitment-message slidein-right">一つ一つの作業を丁寧に</h2>
+                        <p class ="comitment-discription slidein-right">
+                            私たちの農業は出来るだけ手作業で行うことにこだわりを持っています。一つ一つの作物の状態を確認しながら臨機応変に育て方を変えることによって日々、さらに良い育て方を研究しています。
+                            また、収穫と出荷の際はすべて手作業で行っています。すべてを手作業で行うのは膨大な時間と手間がかかりますが、「良いものだけを食べてもらいたい」と
+                            思いから厳しい選別と丁寧な梱包を心がけています。    
+                        </p>
+
+                        
+                        <div class="more-reed-comitment slidein-right btn-right"><!-- もっと見るボタン -->
+                            <a href="#" class="button">
+                                <p>もっと見る</p>
+                            </a>
+                        </div>
+
+                    </div><!-- right-justified -->
+
+                </div>
+
+            </article>
+
+
+
+            <article id="shopping"><!-- お買い物 -->
+                <div class="title">
+                    <div class="title-box">
+                        <h1>お買い物</h1>
+                        <p>shopping</p>
+                    </div>
+                </div>
+
+                <div class="big-bg-shop">
+                    <div calss="online-shop">
+                        <div class="text-center-box">
+                            <h3 class="shop-copy">Aso Farm<br>オンラインショップ</h3>
+                        </div>
+                        <p class="shop-discription">全国どこでも大自然の阿蘇の恵みをお求めいただけます。豊富な品ぞろえでご家族やご友人への贈り物にもおすすめです。細かいご要望も承りますのでお気軽にお問い合わせください。</p>
+                        <div class="online-shop-button slidein-right">
+                            <a href="#" class="btn-shop">オンラインショップへ</a>
+                        </div>
+                    </div>
+
+                    <div calss="offline-shop">
+                        <div class="text-center-box">
+                            <h3 class="shop-copy">直売所のご案内</h3>
+                        </div>
+                        <p class="shop-discription">その日に採れた新鮮な野菜をたくさん出荷しています。日によっては規格外の珍しい品物も並んでるかもしれません。産地直送の新鮮な野菜をぜひお召し上がりください。</p>
+                        <div class="offline-shop-button slidein-right">
+                            <a href="#" class="btn-shop"><p>店舗情報</p></a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+
+
+            <article id="cook"><!-- レシピ -->
+                <div class="title">
+                    <div class="title-box">
+                        <h1>レシピ</h1>
+                        <p>cooking</p>
+                    </div>
+                </div>
+                
+                <div class="big-bg-recipe">
+                    <div class="grid-box"><!--グリットレイアウトでレスポンシブしやすいようにする-------------------------->
+
+                        <section class="recipe slidein-top">
+                            <a class="recipe-sheet-corn" href="#"><!--あとでリンクする------------------------------------>
+                                <div class="picture-radius">
+                                    <div class="picture-width-maintenance">
+                                        <img src="images/home/corn5.jpg" alt="スイートコーンのレシピ" class="picture-recipe">
+                                    </div>
+                                    <p class="crop">スイートコーン</p>
+                                </div>
+                                <p class="crop-discription">スイートコーンは、野菜としてはでんぷん質・糖質が多く、高カロリーで、甘くておいしいことから、子供の好きな野菜の上位に入っています。また、食物繊維が多く、胚芽にはビタミンB1、B2、Eが豊富に含まれており、栄養的にも優れた野菜です。</p>
+                            </a>
+                        </section><!--1個目----------------------------------------------->
+
+                        <section class="recipe slidein-top">
+                            <a class="recipe-sheet-beef" href="#"><!--あとでリンクする------------------------------------>
+                                <div class="picture-radius">
+                                    <div class="picture-width-maintenance">
+                                        <img src="images/home/beef4.jpg" alt="あか牛のレシピ" class="picture-recipe">
+                                    </div>
+                                    <p class="crop">あか牛</p>
+                                </div>
+                                <p class="crop-discription">阿蘇のあか牛は１年の半分以上を高原の牧草地帯で過ごし、野生に近い形でストレスなく育てられています。肉質は赤身が多く、適度の脂肪分も含み、うま味とやわらかさ、ヘルシーさを兼ね備えています。</p>
+                            </a>
+                        </section><!--2個目----------------------------------------------->
+
+                        <section class="recipe slidein-top">
+                            <a class="recipe-sheet-takana" href="#"><!--あとでリンクする------------------------------------>
+                                <div class="picture-radius">
+                                    <div class="picture-width-maintenance">
+                                        <img src="images/home/takana2.jpg" alt="阿蘇高菜のレシピ" class="picture-recipe">
+                                    </div>
+                                    <p class="crop">阿蘇高菜</p>
+                                </div>
+                                <p class="crop-discription">「阿蘇高菜」は、阿蘇の寒冷な気候と火山灰の大地が育む伝統野菜です。茎が細くて歯ごたえがあるのが特徴で、漬物としてそのまま楽しむほかピリ辛の「古漬け」を生かしたアレンジレシピはおつまみにうってつけです。</p>
+                            </a>
+                        </section><!--3個目----------------------------------------------->
+
+                        <section class="recipe slidein-top">
+                            <a class="recipe-sheet-cabbage" href="#"><!--あとでリンクする------------------------------------>
+                                <div class="picture-radius">
+                                    <div class="picture-width-maintenance">
+                                        <img src="images/home/cabbage1.jpg" alt="春キャベツのレシピ" class="picture-recipe">
+                                    </div>
+                                    <p class="crop">春キャベツ</p>
+                                </div>
+                                <p class="crop-discription">阿蘇のキャベツは西日本でもトップの生産量を誇り、高冷地の気候を生かして育てた春キャベツは甘みが強く、大地の恵みをいっぱいに感じられます。火を通すと芯までやわらかくなり、より甘さを実感できます。</p><!-- 九州・熊本と言えば暖かそうな気候をイメージされる方も多いですが、阿蘇地域は標高が高いため冷涼な気候が特徴です。そのため、阿蘇の涼しい気候はキャベツを育てる環境にぴったりです。 -->
+                            </a>
+                        </section><!--4個目----------------------------------------------->
+
+                        <section class="recipe slidein-top">
+                            <a class="recipe-sheet-spinach" href="#"><!--あとでリンクする------------------------------------>
+                                <div class="picture-radius">
+                                    <div class="picture-width-maintenance">
+                                        <img src="images/home/spinach2.jpg" alt="ほうれん草のレシピ" class="picture-recipe">
+                                    </div>
+                                    <p class="crop">ほうれん草</p>
+                                </div>
+                                <p class="crop-discription">冬においしい緑黄色野菜の代表です。寒くなるにつれて緑が濃くなって甘みが増し、ビタミンも豊富になり、栄養価がグンとアップします。洋食にも和食にもあう万能な食材のひとつとして、さまざまな料理に利用されています。</p><!-- ビタミン、ミネラルを豊富に含む、代表的な緑黄色野菜です。葉軸が太く、根に近い部分から濃い緑色の葉がぎっしり密生するのが、阿蘇産の特徴。栄養たっぷりです。 -->
+                            </a>
+                        </section><!--5個目----------------------------------------------->
+
+                        <section class="recipe slidein-top">
+                            <a class="recipe-sheet-corn" href="#"><!--あとでリンクする------------------------------------>
+                                <div class="picture-radius">
+                                    <div class="picture-width-maintenance">
+                                        <img src="images/home/asparagus8.jpg" alt="アスパラガスのレシピ" class="picture-recipe">
+                                    </div>
+                                    <p class="crop">アスパラガス</p>
+                                </div>
+                                <p class="crop-discription">阿蘇は九州の北海道と言われるほど寒暖の差も大きく、この厳しい環境で育つアスパラガスは、甘みや栄養成分が増してより美味しくなります。茹でて調理することが多いアスパラガスですが、茹でると水溶性のビタミンを失ってしまいます。おすすめは、焼いたり、揚げたりといった調理方法です。</p>
+                            </a>
+                        </section><!--6個目----------------------------------------------->
+
+                    </div><!--grid-boxの終わり-->
+
+                </div><!--big-bg-recipeの終わり-->
+
+            </article>
+
+
+
+            <article  id="news"><!-- ニュース -->
+                <div class="title">
+                    <div class="title-box">
+                        <h1>ニュース</h1>
+                        <p>news</p>
+                    </div>
+                </div>
+                <p class="news-discription">AsoFarmで起こったニュースや阿蘇のイベント情報など今この瞬間を発信しています。</p>
+
+                <div class="news-box">
+                    <div class="news-content twitter-box">
+                        <a class="twitter-timeline" data-height="400" href="https://twitter.com/makaino_farm?ref_src=twsrc%5Etfw">Tweets by makaino_farm</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                    <div class="news-content">
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=340&height=400&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    </div>
+                </div>
+
+                <!-- もっと見るボタン -->
+                <div class="more-reed slidein-right">
+                    <a href="#" class="button">
+                        <p>もっと見る</p>
+                    </a>
+                </div>
+
+            </article>
+
+
+
+            <article id="sightseeing"><!-- 観光 -->
+                <div class="title">
+                    <div class="title-box">
+                        <h1>観光</h1>
+                        <p>sightseeing</p>
+                    </div>
+                </div>
+                <p class="title-discription">実は、牧場の経営者である杉田栄作さんは阿蘇の観光ガイドもやっているんです。<br>
+                10年前から地元「阿蘇観光組合」の組長を務め、地域の草原の維持管理や多く方に阿蘇の自然についての理解を深めてもらうための取り組みを行っています。<br>
+                だからこそ知っているトレッキングスポットやフォトスポットなどをプロの目線からご紹介します。</p>
+
+                <div class="nature-gallery"><!--グリットレイアウトでレスポンシブしやすいようにする-------------------------->
+                    <div id="trekking" class="gallery-content slidein-top">
+                        <img src="images/home/trekking-small.jpg" alt="阿蘇山は「日本百名山」のひとつにも選ばれている九州を代表する山です。様々なルートがあり初心者から上級者まで大自然を満喫できます。">
+                        <p class="sightseeing-discription">トレッキング</p>
+                    </div>
+                    <div id="cycling-touring" class="gallery-content slidein-top">
+                        <img src="images/home/cycling-small.jpg" alt="超人気ビュースポットの大観峰付近は、起伏があまりない道が外輪山の縁をトレースしていて、山なのに海岸線を走っているかのような、不思議なフィーリングが味わえます。">
+                        <p class="sightseeing-discription">サイクリング・ツーリング</p>
+                    </div>
+                    <div id="food" class="gallery-content slidein-top">
+                        <img src="images/home/sightseeing-food-small.jpg" alt="阿蘇には選びきれないほどの山の幸があります。阿蘇の名物を扱ったおすすめのレストランやお土産屋さんをご紹介します。">
+                        <p class="sightseeing-discription">食べ物</p>
+                    </div>
+                    <div id="viewpoint" class="gallery-content slidein-top">
+                        <img src="images/home/viewpoint-small.jpg" alt="その美しさから映画やＣＭのロケ地がたくさんある阿蘇。有名なフォトスポットから観光ガイドだからこそ知っている穴場スポットまでご紹介します。">
+                        <p class="sightseeing-discription">フォトスポット</p>
+                    </div>
+                    <div id="camping" class="gallery-content slidein-top">
+                        <img src="images/home/camping-small.jpg" alt="阿蘇のキャンプ場は、周りに明かりも少なく標高が高いので星空を観察するのにぴったり。思わず手を伸ばしたくなるくらい星が近くに感じられます。">
+                        <p class="sightseeing-discription">キャンプ・宿泊</p>
+                    </div>
+                    <div id="seasonal" class="gallery-content slidein-top">
+                        <img src="images/home/seasonal-flower-small.jpg" alt="春・夏・秋・冬、いつ訪れても異なる表情を見せてくれるのが阿蘇観光の魅力。「でも、ベストなタイミングで観光したい」。そんなあなたに今しか見られない観光地のベストタイミングをお知らせします。">
+                        <p class="sightseeing-discription">季節限定スポット</p>
+                    </div>
+                </div>
+
+            </article>
+
+
+
+            <article id="infomation"><!-- 牧場情報 -->
+                <div class="title">
+                    <div class="title-box">
+                        <h1>Aso Farmについて</h1>
+                        <p>infomation</p>
+                    </div>
+                </div>
+
+                <div class="staff">
+                    <img src="images/home/staff-picture-small.jpg" alt="経営者の写真" class="man-picture">
+                    <div class="staff-discription">
+                        <div class="staff-name">
+                            <h2>杉田 栄作</h2>
+                            <p class="name-english">sugita eisaku</p>
+                        </div>
+                        <p class="man-discription">私たちの農業は阿蘇の自然の恵みをもらいながら行っています。豊富な湧き水・きれいな空気・栄養満点の牧草、阿蘇の自然なくして私たちの農業は成り立ちません。
+                            近年、地震や豪雨に見舞われ阿蘇の自然の有難さを改めて感じさせられました。この美しい環境を未来にも変わらず残したいと思い「自然も作物も共に育てる農業」を
+                            モットーに日々仕事をしています。
+                        </p>
+                    </div>
+                    <img src="images/home/farm-illust-small.jpg" alt="牧場のイラスト" class="farm-illust">
+                </div>
+
+                <div class="button-box">
+                    <!-- 1年の流れボタン -->                    
+                    <div class="more-reed year-map slidein-right">
+                        <a href="#" class="button">
+                            <p>１年の流れ</p>
+                        </a>
+                    </div>
+                    
+
+                    <!-- もっと見るボタン -->
+                    <div class="more-reed">
+                        <a href="#" class="button slidein-right">
+                            <p>牧場の情報</p>
+                        </a>
+                    </div>
+
+                </div><!-- bottun-box --------------->
+                
+            </article>
+
+
+        </main>
+
+
+
+
+
+
+        <footer>
+            <div class="footer-wrapper">
+                <div class="footer-left"><!-- 左揃えの箱 -->
+                    <div class="footer-logo">
+                        <a href="index.html">
+                            <img src="images/home/AsoFarm.png" alt="Aso Farmのロゴ">
+                        </a>
+                    </div>
+                    <div class="access">
+                        <p class="zip">869-2304</p>
+                        <p class="address">熊本県 阿蘇市 西湯浦 4-15-5</p>
+                        <p class="tel">TEL: 0963621604</p>
+                        <p class="fax">FAX: 0960299401</p>
+                        <p class="mail">eisakusugita@lylmldb.uog</p>
+                    </div>
+                </div>
+
+
+
+                <div class="footer-right"><!-- 右揃えの箱 -->
+                    <div class="site-map">
+
+                        <div class="top-map"><a href="#top">トップページ</a></div>
+                        <div class="comitment-map"><a href="#comitment">こだわり</a></div>
+                        <div class="shopping-map"><a href="#shopping">お買い物</a>
+                            <ul class="sub-map">
+                                <li><a href="">オンラインショップ</a></li>
+                                <li><a href="">直売所</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="cook-map"><a href="#cook">レシピ</a>
+                            <ul class="sub-map">
+                                <li><a href="">新着メニュー</a></li>
+                                <li><a href="">牛肉</a></li>
+                                <li><a href="">スイートコーン</a></li>
+                                <li><a href="">春キャベツ</a></li>
+                                <li><a href="">枝豆</a></li>
+                                <li><a href="">高菜</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="news-map"><a href="#news">ニュース</a></div>
+                        <div class="sightseeing-map"><a href="#sightseeing">観光情報</a>
+                            <ul class="sub-map">
+                                <li><a href="">トレッキングコース</a></li>
+                                <li><a href="">サイクリングコース</a></li>
+                                <li><a href="">食べ物</a></li>
+                                <li><a href="">フォトスポット</a></li>
+                                <li><a href="">キャンプ・宿泊</a></li>
+                                <li><a href="">期間限定スポット</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="infomation-map"><a href="#infomation">Aso Farmについて</a>
+                            <ul class="sub-map">
+                                <li><a href="">Aso Fram紹介</a></li>
+                                <li><a href="">1年の流れ</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="policy">
+                        <a href="#">プライバシーポリシー</a>
+                        <a href="#">ご利用規約</a>
+                        <a href="#">個人情報の取り扱い</a>
+                        <a href="#">採用情報</a>
+                    </div>
+
+                </div><!-- footer-right -->
+
+            </div><!-- footer-wrapper -->
+
+
+        </footer>
+    </div><!-- <div class="container">の閉じタグ-->
+</body>
+</html>
